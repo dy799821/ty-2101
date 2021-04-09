@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Document</title>
+    <link rel="shortcut icon" href="../../dist/imgs/favicon.ico">
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/1.12.4/jquery.js"></script>
+    <link rel="stylesheet" href="../../dist/css/detail.min.css">
+</head>
+<body>
+    <div id="header"></div>
+    <div id="detail">
+        <div id="detail-cen">
+                <div id="slider">
+                    <ul>
+                        <li class="li" style="background-image: url(../../dist/imgs/s1.webp);"></li>
+                        <li class="li" style="background-image: url(../../dist/imgs/s2.webp);"></li>
+                        <li class="li" style="background-image: url(../../dist/imgs/s3.webp);"></li>
+                        <li class="li" style="background-image: url(../../dist/imgs/s4.webp);"></li>
+                        <li class="li" style="background-image: url(../../dist/imgs/s5.webp);"></li>
+                    </ul>
+                    <div id="big">
+                        <div class="img" style="background-image: url(../../dist/imgs/s111.webp); z-index: 1;"></div>
+                        <div class="img" style="background-image: url(../../dist/imgs/s22.webp);"></div>
+                        <div class="img" style="background-image: url(../../dist/imgs/s11.webp);"></div>
+                        <div class="img" style="background-image: url(../../dist/imgs/s44.webp);"></div>
+                        <div class="img" style="background-image: url(../../dist/imgs/s55.webp);"></div>
+                    </div>
+                </div>
+                <div id="infor">
+                    <p>Smartisan 真无线蓝牙耳机 Pro</p>
+                    <p>通话降噪 全新升级 <span>￥</span><span id="monny">129,00</span></p>
+                    <span>颜色选择</span><span id="bor">白色</span>
+                    <div id="box">
+                        数量选择 <button class="minus">-</button><span id="num">1</span><button class="plus">+</button>
+                    </div>
+                    <b>服务说明<span>* 满 88 元包邮</span></b>
+
+                </div>
+        </div>
+    </div>
+    <div id="pox">
+        <div id="pox_cen">
+            <span>您已选择了</span><span>Smartisan 真无线蓝牙耳机 Pro x </span><span id="mun">1</span><span>￥</span><span id="price">129,00</span><span>现在购买</span><span>加入购物车</span>
+        </div>
+    </div>
+    <div id="foot">
+    </div>
+    <script src="../../dist/js/detail.min.js"></script>
+    <script>
+        $('#header').load('../../dist/pages/header.html');
+        $('#foot').load('../../dist/pages/_public.html')
+    </script>
+    
+
+</body>
+</html>

@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="../dist/imgs/favicon.ico" />
+    <link rel="stylesheet" href="../dist/css/swiper.min.css">
+    <link rel="stylesheet" href="../dist/css/index.min.css">
+</head>
+<body>
+    <div id="header">
+        <div id="header-cen">
+            <ul>
+                <li>在线商城</li>
+                <li>坚果 R2</li>
+                <li>Smartisan TNT go</li>
+                <li>坚果 TNT 工作站</li>
+                <li>Smartisan OS</li>
+                <li>欢喜云</li>
+                <li>应用</li>
+                <li>论坛</li>
+                <li>开发者支持</li>
+                <li>荣誉与奖项</li>
+                <li>加入我们</li>
+                <li>下载 APP</li>
+            </ul>
+        </div>
+        <span id="sp1" class="span"></span>
+        <span id="sp2"></span>
+    </div>
+    <div id="nav">
+        <div id="nav-cen">
+            <ul>
+                <li>首页</li>
+                <li>坚果手机</li>
+                <li>TNT</li>
+                <li>官方自营</li>
+                <li>服饰箱包</li>
+                <li>大力教育</li>
+                <li>地平线 8号</li>
+                <li>服务</li>
+            </ul>
+            <span id="sp11"></span>
+            <span id="sp22"></span>
+            <div id="seach">
+                <button></button>
+                <!-- 添加聚焦时间 -->
+                <input type="text" placeholder="">
+            </div>
+        </div>
+        <!-- 插入的TAB -->
+        <div id="tab">
+            <!-- 这里是切换 -->
+        </div>
+    </div>
+    <!-- main -->
+    <div id="main">
+        <div id="main-cen">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"></div>
+                    <div class="swiper-slide"></div>
+                    <div class="swiper-slide"></div>
+                    <div class="swiper-slide"></div>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+            <script src="../dist/js/swiper.min.js"></script>
+            <script>
+                var swiper = new Swiper('.swiper-container', {
+                    pagination: '.swiper-pagination',
+                    paginationClickable: true,
+                    // autoplay: {
+                    //     delay: 2500,
+                    //     disableOnInteraction: false,
+                    // }
+                    autoplay:3000,
+                    speed:300
+                    // delay : 3000
+                });
+            </script>
+            <div id="loca">
+                <a href="../dist/pages/product.html"><img src="../dist/imgs/fbefae00ef98859f342e9f56889899a0.jpg" alt=""></a>
+                <a href=""><img src="../dist/imgs/3af42fa5c4d90b1a32ea8109cd2a7cc9.jpg" alt=""></a>
+                <a href=""><img src="../dist/imgs/33ea4bfa05068e0741b7278fec9da8a6.jpg" alt=""></a>
+                <a href=""><img src="../dist/imgs/fdc4370d1ce14a67fadc35d74209ac0f.jpg" alt=""></a>
+            </div>
+            <!-- hot -->
+            <div id="hot">
+                <div id="hot-hea">
+                    <h2>热门商品</h2>
+                    <div>
+                        <button><b>&lt;</b></button>
+                        <button><b>&gt;</b></button>
+                    </div>
+                </div>
+                <div id="hot-bot">
+                    <div>
+                        <img src="../dist/imgs/623bad86546352a2035ec704e2faf041.png" alt="">
+                        <p><b>坚果 R2</b></p>
+                        <p>是下一代手机，更是下一代电脑</p>
+                        <p>
+                            <span>￥2,999.00</span><span>￥4,299.00</span>
+                        </p>
+                    </div>
+                    <div>
+                        <img src="../dist/imgs/79c58355d2f5fd53988684b96d405f9b.png" alt="">
+                        <p><b>Smartisan TNT 大满足套装</b></p>
+                        <p>下一代手机，下一代电脑</p>
+                        <p><span>￥4，999.00</span><span>￥6，499.00</span></p>
+                    </div>
+                    <div>
+                        <img src="../dist/imgs/14cec941bbf9d9a8eaf774768028d5be.png" alt="">
+                        <p><b>2020年足迹系列卫衣 人类首次突破音速</b></p>
+                        <p>精心剪裁,版型百搭,舒适服帖,易于打理</p>
+                        <p><span>￥299.00</span></p>
+                    </div>
+                    <div>
+                        <img src="../dist/imgs/211d521553c8816ae1dc6fb5ecdcc99d.jpg" alt="">
+                        <p><b>Smartisan 真无线蓝牙耳机（抖音文创限量...</b></p>
+                        <p>抖音文创限量版</p>
+                        <p><span>$149.00</span><span>￥299.00</span></p>
+                    </div>
+                </div>
+            </div>
+            <div id="R2">
+                <div id="R2-hea">
+                    <h2>坚果 R2 及其配件</h2>
+                </div>
+                <div id="R2-bot">
+                    <a href="#"><img src="https://resource.smartisan.com/resource/7035aa1c033a12a5aab738af28f8765b.png?x-oss-process=image/resize,w_1200/format,webp" width="100%" height="100%" alt=""></a>
+                    <a href="#">
+                        <img src="../dist/imgs/79c58355d2f5fd53988684b96d405f9b.png" alt="">
+                        <p><b>Smartisan TNT 大满足套装</b></p>
+                        <p>下一代手机，下一代电脑</p>
+                        <p><span>￥4，999.00</span><span>￥6，499.00</span></p>
+                    </a>
+                    <a href="#"><img src="../dist/imgs/623bad86546352a2035ec704e2faf041.png" alt="">
+                        <p><b>坚果 R2</b></p>
+                        <p>是下一代手机，更是下一代电脑</p>
+                        <p>
+                            <span>￥2,999.00</span><span>￥4,299.00</span>
+                        </p></a>
+                    <a href="#"><img src="../dist/imgs/623bad86546352a2035ec704e2faf041.png" alt="">
+                        <p><b>坚果 R2</b></p>
+                        <p>是下一代手机，更是下一代电脑</p>
+                        <p>
+                            <span>￥2,999.00</span><span>￥4,299.00</span>
+                        </p></a>
+                    <a href="#"><img src="../dist/imgs/211d521553c8816ae1dc6fb5ecdcc99d.jpg" alt="">
+                        <p><b>Smartisan 真无线蓝牙耳机（抖音文创限量...</b></p>
+                        <p>抖音文创限量版</p>
+                        <p><span>$149.00</span><span>￥299.00</span></p></a>
+                    <a href="#"><img src="../dist/imgs/211d521553c8816ae1dc6fb5ecdcc99d.jpg" alt="">
+                        <p><b>Smartisan 真无线蓝牙耳机（抖音文创限量...</b></p>
+                        <p>抖音文创限量版</p>
+                        <p><span>$149.00</span><span>￥299.00</span></p></a>
+                    <a href="#"><img src="../dist/imgs/211d521553c8816ae1dc6fb5ecdcc99d.jpg" alt="">
+                        <p><b>Smartisan 真无线蓝牙耳机（抖音文创限量...</b></p>
+                        <p>抖音文创限量版</p>
+                        <p><span>$149.00</span><span>￥299.00</span></p></a>
+                </div>
+            </div>
+            <!-- 跳转页面 -->
+            <div id="local">
+                <div id="local-hea">
+                    <h2>论坛精选</h2>
+                    <a href="#">前往论坛 &gt;</a>
+                </div>
+                <div id="local-bot">
+                    <a href="#">
+                        <img src="../dist/imgs/bot2.jpg" alt="">
+                        <h3>Smartisan OS v8.0.1 更新日志</h3>
+                        <p>推送给坚果2的用户</p>
+                        <span>阅读全文&gt;</span>
+                    </a>
+                    <a href="#">
+                        <img src="../dist/imgs/bot2.jpg" alt="">
+                        <h3>Smartisan OS v8.0.1 更新日志</h3>
+                        <p>推送给坚果2的用户</p>
+                        <span>阅读全文&gt;</span>
+                    </a>
+                    <a href="#">
+                        <img src="../dist/imgs/bot2.jpg" alt="">
+                        <h3>Smartisan OS v8.0.1 更新日志</h3>
+                        <p>推送给坚果2的用户</p>
+                        <span>阅读全文&gt;</span>
+                    </a>
+                    <a href="#">
+                        <img src="../dist/imgs/bot2.jpg" alt="">
+                        <h3>Smartisan OS v8.0.1 更新日志</h3>
+                        <p>推送给坚果2的用户</p>
+                        <span>阅读全文&gt;</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- foot -->
+    <div id="foot"></div>
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/1.12.4/jquery.js"></script>
+    <script src="../dist/js/index.min.js"></script>
+    <script>
+        // $('#header').load('../dist/pages/header.html')
+        $('#foot').load('../dist/pages/_public.html');
+        // console.log($("#sp1"));
+    </script>
+</body>
+</html> 

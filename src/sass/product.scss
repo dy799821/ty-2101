@@ -1,0 +1,67 @@
+@import 'public';
+body{
+    background-color: rgb(237,237,237);
+}
+#product{
+    padding-top: 20px;
+    overflow: hidden;
+    padding-bottom: 20px;
+    height: 1000px;
+    width: 100%;
+    #product-cen{
+        width: 1220px;
+        height: 993px;
+        margin: 0 auto;
+        // border-right: 1px solid gray;
+        border-radius: 10px;
+        background-color: white;
+        a{
+            border-right: 1px solid gray;
+            border-bottom: 1px solid gray;
+
+            // border: 1px solid gray;
+            width: 243px;
+            float: left;
+            display: inline-block;
+            height: 330px;
+            // background-color: greenyellow;
+
+            // display: table;
+            // float: left;
+            #sp{
+                width: 243px;
+                // height: 400px;
+                img{
+                    width: 204px;
+                    padding-top: 20px;
+                    height: 204px;
+                    margin: 0 auto;
+                }
+                p{
+                    padding-top: 10px;
+                    font-weight: 900;
+                    text-align: center;
+                }
+                p:nth-of-type(2){
+                    color: gray;
+                    font-size: 12px;
+                    font-weight: normal;
+                }
+                p:nth-of-type(3){
+                    font-weight: 900;
+                    color: red;
+                    // background-color: red;
+                }
+            }
+        }
+        a:nth-child(5){
+            border-right: none;
+        }
+        a:nth-child(10){
+            border-right: none;
+        }
+        a:nth-child(15){
+            border-right: none;
+        }
+    }
+}
